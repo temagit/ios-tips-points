@@ -5,7 +5,7 @@
 	- (void)encodeWithCoder:(NSCoder *)coder;
 	- (nullable instancetype)initWithCoder:(NSCoder *)coder; // NS_DESIGNATED_INITIALIZER
 
-##### example
+##### Example
 
 	override func encode(with coder: NSCoder) {
 	  super.encode(with: coder)
@@ -25,9 +25,7 @@
 	
 	override func viewDidAppear(_ animated: Bool) {
 	  super.viewDidAppear(animated)
-	  if YAuth.isLoggedIn {
-	    interactor.getMessageCount()
-	  }
+	  
 	  if let libraryPath = NSSearchPathForDirectoriesInDomains(.libraryDirectory, .userDomainMask, true).last {
 	    let directory = libraryPath + "/archiver_directory"
 	    if !FileManager.default.fileExists(atPath: directory) {
