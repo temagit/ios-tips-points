@@ -1,5 +1,8 @@
 # ios-tips-points
 
+[FaceID + TouchID + KeychainAccess Biometric Authentication
+](FaceIDOrTouchID.md)
+
 [iOS 签名](Signature.md)
 
 [Swift 5 string interpolation 简化 NSAttributedString生成](https://github.com/temagit/TTText/blob/master/README.md)
