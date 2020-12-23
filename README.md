@@ -1,5 +1,7 @@
 # ios-tips-points
 
+[Build Setting Reference](Xcode-Build-Setting.md)
+
 [FaceID + TouchID + KeychainAccess Biometric Authentication
 ](FaceIDOrTouchID.md)
 
